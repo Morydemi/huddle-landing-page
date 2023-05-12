@@ -9,8 +9,6 @@ Essa é a minha solução para o desafio [Huddle landing page with single introd
   - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 # Overview
 
 ## The challenge

@@ -1,7 +1,7 @@
 html {
-    font-size: 62.5%;
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
     font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
     font-weight: 400;
     color: #fff;
 }
@@ -10,20 +10,18 @@ body {
     background: url(../images/bg-desktop.svg) center center no-repeat;
     background-color: var(--backgound-color);    
     background-size: cover;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-        
-    
+    justify-content: center;      
 }
 
 .header {
     display: flex;
     align-items: left;
     margin: 40px;
-    width: 75%;
-    
+    width: 75%;    
 }
 
 .header img {
@@ -35,7 +33,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     max-width: 1440px;
-    padding: 50px;        
+           
 }
 
 .container img {
@@ -79,14 +77,15 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 65%;
     margin-top: 8%;
     
 }
 
 .footer .social{  
+    display: flex;
     margin-bottom: 15px;
-    align-self: end;
+    align-self: flex-end;
         
          
     
@@ -95,13 +94,22 @@ body {
 .footer .social a{    
     margin: 15px;
     color: #fff; 
-    font-size: 3rem;  
+    font-size: 2.5rem;  
     transition: 0.3s;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .footer .social a:hover {
     color: var(--hover-color);
+    border: solid 1px var(--hover-color);
 }
 
 .footer .attribution {

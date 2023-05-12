@@ -1,41 +1,85 @@
-@media (max-width: 450px){
-    .container .info h1 {
-        font-size: 2.5rem;
-        line-height: 40px;
-        width: 100%;   
-    }
-
-}
-
-
-
-@media (max-width: 650px) {
-    body {
-        background: url(../images/bg-mobile.svg) top center no-repeat;        
-        background-color: var(--backgound-color);
-        padding: 0;
-        background-size: contain;
-        height: 100%;        
-        align-items: center;
-        
-    }
-    
+@media (max-width: 1028px) {
     .header {
-        height: 10%;   
-        margin: 20px;  
-        align-self: start; 
+        margin: 25px;
     }
-    
+
     .header img {
         width: 150px;
     }
 
-    .container {        
+    .container {
+        max-width: 850px;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+    .container .info {
+        margin: 30px;
+    }
+
+    .container .info h1 {
+        font-size: 3rem;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .container .info p {
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+    }
+
+    .footer {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
+        width: 100%;
+        bottom: 0 auto;
+    }
+
+    .footer .social {
+        align-self: flex-end;
+        margin-bottom: 15px;
+        align-self: center;
+    }
+
+    .footer .social a {
+        margin: 8px;
+        font-size: 2rem;
+        height: 45px;
+        width: 45px;
+    }
+
+    .footer .attribution {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 650px) {
+    body {
+        background: url(../images/bg-mobile.svg) top center no-repeat;
+        background-color: var(--backgound-color);
+        padding: 0;
+        background-size: contain;
+        height: 100%;
+        align-items: center;
+
+    }
+
+    .header {
+        height: 10%;
+        margin: 20px;
+        align-self: start;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
         padding: 5px;
-        text-align: center; 
-        align-items: center;  
+        text-align: center;
+        align-items: center;
     }
 
     .container img {
@@ -51,13 +95,13 @@
     .container .info h1 {
         font-size: 2.5rem;
         line-height: 40px;
-        width: 100%;   
+        width: 100%;
     }
 
     .container .info p {
         font-size: 1.6rem;
         margin-bottom: 25px;
-    
+
     }
 
     .container .info .register-btn {
@@ -67,37 +111,18 @@
         font-size: 1.6rem;
         color: var(--backgound-color);
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
-        margin-bottom: 50px;
-    
+        margin-bottom: 30px;
+
     }
 
-    .footer{
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        bottom: 0 auto;                          
-    }
-
-    .footer .social{       
-        align-self: flex-end;       
-        margin-bottom: 20px;
-        align-self: center;
-    }
-
-    .footer .social a{    
-        margin: 10px;
-        color: #fff; 
-        font-size: 3rem;  
-        transition: 0.3s;
-        
-        
+    .footer .social a {
+        font-size: 1.8rem;
+        height: 40px;
+        width: 40px;
     }
 
     .footer .attribution {
         font-size: 1rem;
-        text-align: center;    
-        
     }
 
 }
-

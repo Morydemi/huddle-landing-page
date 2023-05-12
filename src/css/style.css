@@ -32,8 +32,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    max-width: 1440px;
-           
+    max-width: 1440px;    
 }
 
 .container img {
@@ -55,8 +54,6 @@ body {
     font-size: 2rem;
     margin-bottom: 25px;
 }
-
-
 
 .container .info .register-btn {
     padding: 15px 50px;
